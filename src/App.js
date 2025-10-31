@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world! faixan
-    </h1>
-    </div>
+   <div>
+  
+    
+    <Card/>
+  </div>
+  
+    
   );
 }
 
