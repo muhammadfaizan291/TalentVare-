@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayXXThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayXThin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayThin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayThinItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayLight.ttf') format('truetype');
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayLightItalic.ttf') format('truetype');
+  font-weight: 350;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayMediu.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('./grotesk/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+

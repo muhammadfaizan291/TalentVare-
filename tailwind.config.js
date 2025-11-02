@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'grotesk': ['Neue Haas Grotesk Display'],
+      },
+      colors: {
+        'primary': '#0154AA',
+        'secondary': '#737A91',
+      },
+    },
   },
   plugins: [],
 }
