@@ -3,29 +3,35 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import SearchBar from './components/SearchBar';
 import JobCard from './components/JobCard';
+import ScreenContainer from './components/screenContainer';
 
 function App() {
   return (
-    <div className="max-w-[1443px] bg-[#F4F4F4]">
-      
-      <Header /> 
 
-      <div className="flex gap-[24px] pt-[25px] pl-[50px] pr-[49px]">
+    <>
+    
+      <Header />  
+<div className='bg-[#F4F4F4]'>
+<ScreenContainer>
+      <div className="flex flex-col lg:flex-row gap-[24px] pt-[25px] ">
+      <div className='w-full lg:w-[26%]'>
+
         <Sidebar /> 
+      </div>
 
       
-         <div className="flex-1">
+         <div className="w-full lg:w-[73%]">
         
           <SearchBar />
            <div className="mb-[36px]">
             <div className="flex items-center gap-[15px] mb-[15px]">
-              <h2 className="text-xl font-bold text-gray-900">Featured Jobs</h2>
-              <a href="#" className="text-sm text-primary font-medium underline">
+              <h2 className="profile font-normal text-[#333333]">Featured Jobs</h2>
+              <a href="#" className="description text-primary font-normal underline">
                 See Featured Jobs
               </a>
             </div>
 
-            <div className="grid grid-cols-5 gap-[16px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[16px]">
               <JobCard promoted={true} />
               <JobCard promoted={true} />
               <JobCard promoted={true} />
@@ -36,12 +42,12 @@ function App() {
           
           <div className="mb-[50px]">
             <div className="flex items-center gap-[15px] mb-[15px]">
-              <h2 className="text-xl font-bold text-gray-900">Recommended Jobs</h2>
-              <a href="#" className="text-sm text-primary font-medium underline">
+              <h2 className="profile font-normal text-[#333333]">Recommended Jobs</h2>
+              <a href="#" className="description text-primary font-normal underline">
                 See Recommended Jobs
               </a>
             </div>
-            <div className="grid grid-cols-5 gap-[16px] mb-[15px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[16px] mb-[15px]">
               <JobCard />
               <JobCard />
               <JobCard />
@@ -49,7 +55,7 @@ function App() {
               <JobCard />
             </div>
 
-            <div className="grid grid-cols-5 gap-[16px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[16px]">
               <JobCard />
               <JobCard />
               <JobCard />
@@ -60,13 +66,13 @@ function App() {
 
           <div className="mb-[70px]">
          <div className="flex items-center gap-[15px] mb-[15px]">
-              <h2 className="text-xl font-bold text-gray-900">Latest Jobs</h2>
-              <a href="#" className="text-sm text-primary font-medium underline">
+              <h2 className="profile font-normal text-[#333333]">Latest Jobs</h2>
+              <a href="#" className="description text-primary font-normal underline">
                 See Latest Jobs
               </a>
             </div>
 
-            <div className="grid grid-cols-5 gap-[16px] mb-[15px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[16px] mb-[15px]">
               <JobCard />
               <JobCard />
               <JobCard />
@@ -74,7 +80,7 @@ function App() {
               <JobCard />
             </div>
 
-            <div className="grid grid-cols-5 gap-[16px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[16px]">
               <JobCard />
               <JobCard />
               <JobCard />
@@ -83,8 +89,11 @@ function App() {
             </div>
           </div>
         </div> 
-      </div> 
-    </div>
+      </div>
+      </ScreenContainer> 
+</div>
+
+   </>
   );
 }
 

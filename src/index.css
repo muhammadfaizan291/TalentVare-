@@ -7,12 +7,89 @@
 :root{
   --primary:#0154AA;
   --secondary: #737A91;
+
+  --fs-section-heading:22px;
+  --lh-section-heading:22px;
+
+  --fs-description:14px;
+  --lh-description:14px;
+
+  --fs-header:16px;
+  --lh-header:16px;
+
+   --fs-jobs:12px;
+  --lh-jobs:12px;
+
+     --fs-profile:18px;
+  --lh-profile:18px;
+
+     --fs-promoted:10px;
+  --lh-promoted:10px;
+
 }
 
 body {
-  font-family: 'Neue Haas Grotesk Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Neue Haas Grotesk Display", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.section-heading{
+  font-size: var(--fs-section-heading);
+  line-height: var(--lh-section-heading);
+}
+.description{
+  font-size: var(--fs-description);
+  line-height: var(--lh-description);
+
+}
+.header{
+  font-size: var(--fs-header);
+  line-height: var(--lh-header);
+
+}
+.jobs{
+  font-size: var(--fs-jobs);
+  line-height: var(--lh-jobs);
+
+}
+.profile{
+  font-size: var(--fs-profile);
+  line-height: var(--lh-profile);
+
+}
+
+
+.promoted{
+  font-size: var(--fs-promoted);
+  line-height: var(--lh-promoted);
+
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  :root {
+    --fs-section-heading: 18px;
+    --lh-section-heading: 20px;
+
+    --fs-description: 13px;
+    --lh-description: 15px;
+
+     --fs-header:12px;
+  --lh-header:12px;
+
+   --fs-jobs:8px;
+  --lh-jobs:8px;
+
+     --fs-profile:14px;
+  --lh-profile:14px;
+
+     --fs-promoted:6px;
+  --lh-promoted:6px;
+
+  }
 }
