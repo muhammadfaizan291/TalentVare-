@@ -26,7 +26,7 @@ const Header = () => {
 
           
           <div className="hidden lg:flex gap-[63px]">
-            <nav className="flex items-center gap-[16px]">
+            <nav className="flex items-center gap-[25px]">
               {navItems.map((item, index) => (
                 <a
                   key={index}
