@@ -13,12 +13,12 @@ const JobCard = ({ promoted = false }) => {
         </div>
       )}
 
-      <div className="flex gap-[10px]  mb-[5px]">
-        <div className='text-start'>
+      <div className="flex gap-[10px] items-center  mb-[5px]">
+        <div className=''>
           <img
             src="/teamslogo.svg"
             alt="Microsoft Teams"
-            className='w-[50px] h-[50px]'
+            className='w-[50px] h-[50px] '
           />
         </div>
         <div>
